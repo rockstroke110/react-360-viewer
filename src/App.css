@@ -1,0 +1,37 @@
+/* Base styles */
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+/* Hide all Pannellum elements when not in viewer mode */
+body:not(.viewer-mode) .pnlm-ui,
+body:not(.viewer-mode) .pnlm-load-box,
+body:not(.viewer-mode) .pnlm-controls,
+body:not(.viewer-mode) #panorama {
+  display: none !important;
+}
+
+/* Additional styles to force hide loading screen */
+.pnlm-load-box {
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+/* Show Pannellum elements only in viewer mode */
+body.viewer-mode .pnlm-load-box {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Override Pannellum container styles */
+#panorama:not(.pnlm-container) {
+  background: white !important;
+  display: none !important;
+}
+
+/* Force white background when not in viewer mode */
+body:not(.viewer-mode) {
+  background: white !important;
+}
