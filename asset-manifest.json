@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-360-viewer/static/css/main.f664cdaa.css",
+    "main.js": "/react-360-viewer/static/js/main.3fa29ab3.js",
+    "service-worker.js": "/react-360-viewer/service-worker.js",
+    "index.html": "/react-360-viewer/index.html",
+    "main.f664cdaa.css.map": "/react-360-viewer/static/css/main.f664cdaa.css.map",
+    "main.3fa29ab3.js.map": "/react-360-viewer/static/js/main.3fa29ab3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f664cdaa.css",
+    "static/js/main.3fa29ab3.js"
+  ]
+}
