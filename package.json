@@ -51,7 +51,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://rockstroke110.github.io/360-viewer",
+  "homepage": "https://rockstroke110.github.io/react-360-viewer",
   "devDependencies": {
     "gh-pages": "^6.2.0"
   }
